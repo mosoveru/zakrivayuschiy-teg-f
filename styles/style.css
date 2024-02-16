@@ -423,10 +423,14 @@
   white-space: wrap;
 }
 
-.dialog_button {
+.dialog_form {
   grid-column: 1/3;
   align-self: end;
+}
+
+.dialog_button {
   text-transform: uppercase;
+  inline-size: 100%;
 }
 
 @media (width <= 375px) {

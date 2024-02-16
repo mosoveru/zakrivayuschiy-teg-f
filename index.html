@@ -749,13 +749,11 @@
         <use href="./svg/floppy.svg#big-floppy" class="floppy"></use>
       </svg>
       <h2 class="dialog_title">Вставьте дискету, чтобы продолжить</h2>
-      <button
-        type="button"
-        class="button dialog_button"
-        onclick="document.getElementById('save-memories').close()"
-      >
-        <span class="button__text">Ок</span>
-      </button>
+      <form method="dialog" class="dialog_form">
+        <button type="submit" class="button dialog_button">
+          <span class="button__text">Ок</span>
+        </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
