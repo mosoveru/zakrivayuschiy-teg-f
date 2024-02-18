@@ -309,6 +309,10 @@
   mix-blend-mode: difference;
 }
 
+.dialog_floppy {
+  fill: var(--accent-color);
+}
+
 .dialog {
   border: 2px solid var(--accent-color);
   padding: 30px;
